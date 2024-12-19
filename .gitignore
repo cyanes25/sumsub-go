@@ -1,0 +1,27 @@
+# Ignore arquivos de configuração local
+.env
+
+# Ignore binários compilados
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# Ignore arquivos de cache
+*.log
+*.tmp
+*.swp
+
+# Ignore diretórios criados pelo Go
+bin/
+pkg/
+cache/
+
+# Ignore arquivos de dependências gerados
+go.sum
+
+# Ignore IDE/Editor específicos
+.vscode/
+.idea/
+*.iml
